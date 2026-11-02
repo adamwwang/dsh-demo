@@ -5,7 +5,7 @@ A tiny zero-dependency demo repository for [dsh-superagent](../dsh-superagent-pr
 ## Run the tests
 
 ```sh
-node --test test/   # or: npm test
+node --test         # or: npm test
 ```
 
 ## Try the agent
