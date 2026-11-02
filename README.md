@@ -18,6 +18,6 @@ Open an Issue in this repository and comment:
 
 Within about a minute a Ticket appears on the Superagent panel. The agent acknowledges the request, works in its own Session and directory, opens a pull request, and answers in the Issue.
 
-## Known limitation
+## Behavior
 
-`src/title-case.js` does not handle hyphenated words: `titleCase('hello-world')` returns `Hello-world`. It is left as something for the agent to fix.
+`titleCase` capitalizes words separated by whitespace or hyphens: `titleCase('hello-world')` returns `Hello-World`.
